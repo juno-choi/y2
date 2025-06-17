@@ -4,7 +4,7 @@ const product = {
     name: '설계',
     href: '#',
     breadcrumbs: [
-        { id: 1, name: 'Business', href: '#' },
+        { id: 1, name: 'Solution', href: '#' },
     ],
     description: 'Design',
     solution: [
@@ -74,7 +74,6 @@ export default function Design() {
                         </div>
 
                         <div className="mt-10">
-                            <h3 className="text-sm font-medium text-gray-900">Solution</h3>
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
