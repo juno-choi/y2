@@ -1,33 +1,26 @@
 'use client'
 
 const product = {
-    name: '제품 개발',
+    name: '설계 및 조립',
     href: '#',
     breadcrumbs: [
         { id: 1, name: 'Business', href: '#' },
     ],
-    description: 'Production development',
-    automotiveProductdevelopment: [
-        'Classic AutosarAR Platform(SWP) based',
-        '2Gateway function (CAN/CAN-FD/Ethernet)',
-        '3Data Connection function (CAN/CAN-FD/Ethernet)',
-        '4Connected Car Service function ',
-        '5OTA (Over The  Air) function ',
-        '6V2XCommunication function ',
-        '7Security function ',
-        '8CMMI LV3 based',
-        '9ISO26262 functional safety products',
+    description: 'Design and Assembly',
+    productionAssembly: [
+        'SMT',
+        'System module Assembly',
     ],
-    homeIndustrialProductDevelopment: [
-        'Home Network : H5W,S7W Total solution, wall pad, Lobby, Door phone, Local serve',
-        'Network Camera : H5W,S7W Total solution, CMS,MAS server ONVIF',
-        'mVolP : Android, iOS, Linux, SIP, IMS ,H26x, MPEG4, AEC',
-        'Manufacturing : wall pad, Lobby, Door phone',
-        'Multimedia broadcasting ',
+    productDevelopment: [
+        'Test Tools',
+        'Hard ware Develop',
+        'Software Develop',
+        'PCB Artwork',
+        'Injection mold design and plastic injection',
     ],
 }
 
-export default function Product() {
+export default function Design() {
     return (
         <div className="bg-white">
             <div className="pt-6">
@@ -60,25 +53,6 @@ export default function Product() {
                     </ol>
                 </nav>
 
-                {/* Image gallery */}
-                <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
-                    <img
-                        alt={"pcb image"}
-                        src={"/business/product/pcb.png"}
-                        className="row-span-2 aspect-3/4 size-full rounded-lg object-cover "
-                    />
-                    <img
-                        alt={"connector image"}
-                        src={"/business/product/connector.png"}
-                        className="row-span-2 aspect-3/4 size-full rounded-lg object-cover "
-                    />
-                    <img
-                        alt={"pcb assembly image"}
-                        src={"/business/product/pcb-assembly.png"}
-                        className="row-span-2 aspect-3/4 size-full rounded-lg object-cover"
-                    />
-                </div>
-
                 {/* Product info */}
                 <div className="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
                     <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
@@ -99,7 +73,7 @@ export default function Product() {
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
-                                    {product.automotiveProductdevelopment.map((p) => (
+                                    {product.productionAssembly.map((p) => (
                                         <li key={p} className="text-gray-400">
                                             <span className="text-gray-600">{p}</span>
                                         </li>
@@ -113,7 +87,7 @@ export default function Product() {
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
-                                    {product.homeIndustrialProductDevelopment.map((p) => (
+                                    {product.productDevelopment.map((p) => (
                                         <li key={p} className="text-gray-400">
                                             <span className="text-gray-600">{p}</span>
                                         </li>
