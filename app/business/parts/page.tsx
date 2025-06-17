@@ -67,7 +67,7 @@ export default function Parts() {
                         </div>
 
                         <div className="mt-10">
-                            <h3 className="text-sm font-medium text-gray-900">Automotive Product development</h3>
+                            <h3 className="text-sm font-medium text-gray-900">Flexibly respond design requirements</h3>
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">

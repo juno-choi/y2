@@ -69,7 +69,7 @@ export default function Design() {
                         </div>
 
                         <div className="mt-10">
-                            <h3 className="text-sm font-medium text-gray-900">Automotive Product development</h3>
+                            <h3 className="text-sm font-medium text-gray-900">Production Assembly</h3>
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
@@ -83,7 +83,7 @@ export default function Design() {
                         </div>
 
                         <div className="mt-10">
-                            <h3 className="text-sm font-medium text-gray-900">Home &Industrial Product Development</h3>
+                            <h3 className="text-sm font-medium text-gray-900">Product development</h3>
 
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
