@@ -24,8 +24,9 @@ const features = [
     {
         name: 'address',
         description:
-            '1016 Ha-dong, Yeongtong-gu, Suwon-si, Gyengi-do Korea\n' +
-            'Hyosung Harrington Tower 1716',
+            '광교효성해링턴타워\n경기도 수원시 영통구 하동 1016,1716호 Y2 Connect\n'+
+            '(1016 Ha-dong, Yeongtong-gu, Suwon-si, Gyengi-do Korea\n' +
+            'Hyosung Harrington Tower 1716)',
         icon: MapIcon,
     },
 ]
