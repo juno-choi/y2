@@ -78,7 +78,7 @@ export default function Design() {
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                                     {product.solution.map((p) => (
-                                        <li key={p} className="text-gray-400">
+                                        <li key={p[0]} className="text-gray-400">
                                             <span className="text-gray-600">{p[0]}</span>
                                             <br/>
                                             <span className="text-gray-600">{p[1]}</span>
@@ -95,7 +95,7 @@ export default function Design() {
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                                     {product.flexiblyRespondDesignRequirements.map((p) => (
-                                        <li key={p} className="text-gray-400">
+                                        <li key={p[0]} className="text-gray-400">
                                             <span className="text-gray-600">{p[0]}</span>
                                             <br/>
                                             <span className="text-gray-600">{p[1]}</span>
@@ -112,7 +112,7 @@ export default function Design() {
                             <div className="mt-4">
                                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
                                     {product.designQuality.map((p) => (
-                                        <li key={p} className="text-gray-400">
+                                        <li key={p[0]} className="text-gray-400">
                                             <span className="text-gray-600">{p[0]}</span>
                                             <br/>
                                             <span className="text-gray-600">{p[1]}</span>
