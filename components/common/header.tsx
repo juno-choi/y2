@@ -31,9 +31,9 @@ const business = [
 ]
 
 const solution = [
-    { name: '설계', description: 'Design', href: '/business/product', icon: PencilSquareIcon },
-    { name: '부품 공급', description: 'Parts supply', href: '/business/design', icon: ArrowPathIcon },
-    { name: 'PCB 기술지원 서비스', description: 'PCB technical support service', href: '/business/parts', icon: ComputerDesktopIcon },
+    { name: '설계', description: 'Design', href: '/solution/design', icon: PencilSquareIcon },
+    { name: '부품 공급', description: 'Parts supply', href: '/solution/parts', icon: ArrowPathIcon },
+    { name: 'PCB 기술지원 서비스', description: 'PCB technical support service', href: '/solution/support', icon: ComputerDesktopIcon },
 ]
 
 
