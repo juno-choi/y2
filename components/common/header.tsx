@@ -22,7 +22,7 @@ import {
     ComputerDesktopIcon,
     CpuChipIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const business = [
     { name: '제품 개발', description: 'Production development', href: '/business/product', icon:  CpuChipIcon},
